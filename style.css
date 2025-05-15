@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'cute';
+    src: url(Cute\ Notes.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/a4/aa/75/a4aa756e998d2b8529bcf6bec87ad592.jpg');
+    background-size: contain;
+    color: #641f39;
+    margin: 0%;
+    padding: 0%;
+}
+
+h2{
+    font-family: 'cute';
+}
+
+header {
+    font-family: 'cute';
+    font-size: 20px;
+    background-color: #641f39;;
+    color: #dda6bb;
+    padding: 10px 20px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.jogo {
+    width: 600px;
+    background: white;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.jogo img {
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+}
+.jogo1 {
+    width: 330px;
+    background: white;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.jogo:hover{
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+.vertical {
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.jogar {
+    background-color: #91536b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.jogar:hover {
+    background-color: #641f39;
+}
+footer {
+    background-color: #641f39;;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
