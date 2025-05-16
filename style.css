@@ -59,6 +59,10 @@ header {
     transform: scale(1.05);
     transition: 2s;
 }
+.jogo1:hover{
+    transform: scale(1.05);
+    transition: 2s;
+}
 
 .vertical {
     width: 280px;
@@ -83,39 +87,4 @@ footer {
     color: white;
     padding: 10px 20px;
     text-align: center;
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center; 
-    }
-
-    .jogo, .jogo1 {
-        width: 90%;
-        margin: 10px 0; 
-    }
-
-    .jogo img, .jogo1 img {
-        width: 100%;
-        height: auto;
-    }
-
-    header {
-        font-size: 18px;
-    }
-
-    footer {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        font-size: 16px;
-    }
-
-    .jogar {
-        padding: 8px 12px;
-    }
 }
